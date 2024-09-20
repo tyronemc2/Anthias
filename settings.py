@@ -50,7 +50,7 @@ CONFIGURABLE_SETTINGS['use_24_hour_clock'] = (
     DEFAULTS['main']['use_24_hour_clock'])
 CONFIGURABLE_SETTINGS['date_format'] = DEFAULTS['main']['date_format']
 
-PORT = int(getenv('PORT', 8080))
+PORT = int(getenv('PORT', 8181))
 LISTEN = getenv('LISTEN', '127.0.0.1')
 
 # Initiate logging
