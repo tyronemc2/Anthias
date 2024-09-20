@@ -26,7 +26,7 @@ echo "Running migration..."
 python ./bin/migrate.py
 
 if [[ "$ENVIRONMENT" == "development" ]]; then
-    flask --app server.py run --debug --reload --host 0.0.0.0 --port 8080
+    flask --app server.py run --debug --reload --host 0.0.0.0 --port 8181
 else
     python server.py
 fi
