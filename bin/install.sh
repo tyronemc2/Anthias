@@ -7,7 +7,7 @@ set -euo pipefail
 
 BRANCH="master"
 ANSIBLE_PLAYBOOK_ARGS=()
-REPOSITORY="https://github.com/Screenly/Anthias.git"
+REPOSITORY="https://github.com/tyronemc2/Anthias.git"
 ANTHIAS_REPO_DIR="/home/${USER}/screenly"
 GITHUB_API_REPO_URL="https://api.github.com/repos/Screenly/Anthias"
 GITHUB_RELEASES_URL="https://github.com/Screenly/Anthias/releases"
