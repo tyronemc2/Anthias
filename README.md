@@ -7,7 +7,7 @@
 
 ## About Anthias
 
-Anthias is a digital signage platform for Raspberry Pi. Formerly known as Screenly OSE, it was rebranded to clear up the confusion between Screenly (the paid version) and Anthias. More details can be found in [this blog post](https://www.screenly.io/blog/2022/12/06/screenly-ose-now-called-anthias/).
+Anthias is a digital signage platform for Raspberry Pi and x86 devices. Formerly known as Screenly OSE, it was rebranded to clear up the confusion between Screenly (the paid version) and Anthias. More details can be found in [this blog post](https://www.screenly.io/blog/2022/12/06/screenly-ose-now-called-anthias/).
 
 Want to help Anthias thrive? Support us using [GitHub Sponsor](https://github.com/sponsors/Screenly).
 
@@ -19,7 +19,7 @@ We've tested Anthias and is known to work on the following Raspberry Pi models:
 * Raspberry Pi 3 Model B+ - 32-bit and 64-bit Bullseye, 64-bit Bookworm
 * Raspberry Pi 3 Model B - 64-bit Bookworm and Bullseye
 * Raspberry Pi 2 Model B - 32-bit Bookworm and Bullseye
-* x86 Devices - 64-bit Bullseye
+* x86 Devices - 64-bit Bookworm
     * These devices can be something similar to a NUC.
 
 
