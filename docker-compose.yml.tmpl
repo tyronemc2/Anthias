@@ -55,7 +55,7 @@ services:
       - anthias-server
     environment:
       - HOME=/data
-      - PORT=80
+      - PORT=81
       - NOREFRESH=1
       - LISTEN=anthias-nginx
     extra_hosts:
@@ -131,7 +131,7 @@ services:
       context: .
       dockerfile: docker/Dockerfile.nginx
     ports:
-      - 80:80
+      - 81:81
     environment:
       - HOME=/data
     depends_on:
