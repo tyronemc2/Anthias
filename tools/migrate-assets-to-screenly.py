@@ -16,7 +16,7 @@ HOME = os.getenv('HOME')
 BASE_API_SCREENLY_URL = 'https://api.screenlyapp.com'
 ASSETS_ANTHIAS_API = 'http://127.0.0.1/api/v1.1/assets'
 MAX_ASSET_NAME_LENGTH = 40
-PORT = 82
+PORT = 80
 
 token = None
 
