@@ -38,7 +38,7 @@ services:
       - anthias-server
     environment:
       - HOME=/data
-      - PORT=81
+      - PORT=80
       - NOREFRESH=1
       - LISTEN=anthias-nginx
     extra_hosts:
@@ -90,7 +90,7 @@ services:
   anthias-nginx:
     image: screenly/anthias-nginx:${GIT_SHORT_HASH}-${BOARD}
     ports:
-      - 81:81
+      - 80:80
     environment:
       - HOME=/data
     depends_on:
