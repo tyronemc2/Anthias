@@ -70,7 +70,7 @@ def remote_branch_available(branch):
 
     try:
         resp = requests_get(
-            'https://api.github.com/repos/screenly/anthias/branches',
+            'https://api.github.com/repos/tyronemc2/anthias/branches',
             headers={
                 'Accept': 'application/vnd.github.loki-preview+json',
             },
@@ -116,7 +116,7 @@ def fetch_remote_hash():
             return None, False
         try:
             resp = requests_get(
-                f'https://api.github.com/repos/screenly/anthias/git/refs/heads/{branch}',  # noqa: E501
+                f'https://api.github.com/repos/tyronemc2/anthias/git/refs/heads/{branch}',  # noqa: E501
                 timeout=DEFAULT_REQUESTS_TIMEOUT
             )
             resp.raise_for_status()
