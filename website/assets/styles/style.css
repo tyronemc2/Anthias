@@ -12,7 +12,7 @@ body {
   --bs-navbar-toggler-padding-x: 0;
   --bs-navbar-toggler-padding-y: 0;
 
-  background-color: #270035;
+  background-color: #182176;
   padding: 36px 0;
 }
 
@@ -34,7 +34,7 @@ h3 {
 }
 
 .background-dark {
-  background: #270035;
+  background: #182176;
   color: #fff;
 }
 
@@ -50,13 +50,13 @@ h3 {
 .btn-primary {
   background: linear-gradient(133.73deg, #fff963 14.42%, #ffd800 108.14%);
   border: 1px solid #fff963;
-  color: #270035;
+  color: #182176;
   cursor: pointer;
 }
 
 .btn-primary:hover {
   border: 1px solid #fff963;
-  color: #270035;
+  color: #182176;
 }
 
 .btn-primary.btn-outline {
@@ -95,7 +95,7 @@ header {
   align-items: center;
   justify-content: flex-end;
   overflow: hidden;
-  background-color: #270035;
+  background-color: #182176;
   padding: 1rem 0 0;
 }
 
@@ -132,7 +132,7 @@ header .hero-text h1 {
 }
 
 .b-bullet {
-  background: #270035;
+  background: #182176;
 }
 
 .faq-container {
