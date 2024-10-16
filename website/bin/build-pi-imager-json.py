@@ -5,7 +5,7 @@ from __future__ import unicode_literals
 import requests
 import json
 
-BASE_URL = "https://api.github.com/repos/Screenly/Anthias"
+BASE_URL = "https://api.github.com/repos/tyronemc2/Anthias"
 GITHUB_HEADERS = {
     "Accept": "application/vnd.github+json",
     "X-GitHub-Api-Version": "2022-11-28"
